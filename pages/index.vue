@@ -1,5 +1,7 @@
 <template>
-  <div class="flex min-h-screen py-8 items-start lg:items-center">
+  <div
+    class="flex flex-col lg:flex-row h-screen py-8 items-start lg:items-center"
+  >
     <!-- Left & Center Column -->
     <div
       class="flex flex-col-reverse lg:flex-row items-center lg:items-start gap-x-4 gap-y-4 lg:gap-x-6 w-full"
