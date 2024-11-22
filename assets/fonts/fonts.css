@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Tomorrow";
+  font-weight: 300;
+  src: url("/assets/fonts/Tomorrow-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tomorrow";
+  font-weight: 400;
+  src: url("/assets/fonts/Tomorrow-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tomorrow";
+  font-weight: 500;
+  src: url("/assets/fonts/Tomorrow-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tomorrow";
+  font-weight: 600;
+  src: url("/assets/fonts/Tomorrow-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tomorrow";
+  font-weight: 700;
+  src: url("/assets/fonts/Tomorrow-Bold.ttf") format("truetype");
+}
