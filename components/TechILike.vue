@@ -1,25 +1,33 @@
 <template>
-  <!-- Tech Section -->
-  <div class="flex flex-col items-center gap-y-6">
-    <p class="text-neutral text-3xl lg:text-5xl font-tomorrow font-bold">
-      {{ !smallerOrEqualThanLg ? "TECH I LIKE" : "PORTFOLIO" }}
-    </p>
+  <div class="flex flex-col gap-y-4 lg:gap-y-6 h-full justify-between">
+    <!-- Tech Section -->
+    <div class="flex flex-col items-center gap-y-4 lg:gap-y-6">
+      <p class="text-neutral text-3xl lg:text-5xl font-tomorrow font-bold">
+        TECH I LIKE
+      </p>
 
-    <GlowBorder
-      v-if="!smallerOrEqualThanLg"
-      class="relative flex flex-col w-full overflow-hidden rounded-full bg-transparent md:shadow-xl backdrop-blur-md"
-      :color="[]"
-    >
       <TechOrbit />
-    </GlowBorder>
+    </div>
+
+    <div class="flex flex-col items-center gap-y-4 lg:gap-y-6">
+      <p class="text-neutral text-3xl lg:text-5xl font-tomorrow font-bold">
+        PROJECTS
+      </p>
+
+      <GlowBorder
+        class="relative flex flex-col w-full overflow-hidden rounded-2xl border p-0 bg-white/5 md:shadow-xl backdrop-blur-md"
+        :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
+      >
+        <SafariMockup
+          url="inspira-ui.com"
+          src="/img/site.png"
+          class="dark size-full"
+        />
+      </GlowBorder>
+    </div>
   </div>
 </template>
 
-<script setup lang="ts">
-import { breakpointsTailwind, useBreakpoints } from "@vueuse/core";
-
-const breakpoints = useBreakpoints(breakpointsTailwind);
-const smallerOrEqualThanLg = breakpoints.smallerOrEqual("lg"); // only smaller than lg
-</script>
+<script setup lang="ts"></script>
 
 <style></style>

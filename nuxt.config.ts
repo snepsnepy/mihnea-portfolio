@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@vueuse/motion/nuxt",
     "@nuxt/icon",
+    "@nuxt/image",
   ],
 
   css: ["~/assets/css/main.css"],

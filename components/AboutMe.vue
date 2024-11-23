@@ -1,5 +1,11 @@
 <template>
-  <div class="flex flex-col gap-y-4 lg:gap-y-6">
+  <div class="flex flex-col gap-y-4 lg:gap-y-6 h-full justify-between">
+    <p
+      class="text-neutral text-center text-3xl lg:text-5xl font-tomorrow font-bold"
+    >
+      WHO AM I?
+    </p>
+
     <!-- My Name Is -->
     <GlowBorder
       class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-md"

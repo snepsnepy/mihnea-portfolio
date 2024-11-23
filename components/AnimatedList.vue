@@ -1,5 +1,5 @@
 <template>
-  <div :class="cn('flex flex-col items-center gap-4', $props.class)">
+  <div :class="cn('flex flex-col items-center w-full gap-4', $props.class)">
     <transition-group
       name="list"
       tag="div"

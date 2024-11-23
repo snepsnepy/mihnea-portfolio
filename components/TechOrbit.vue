@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex w-[400px] h-[385px] lg:h-[450px] lg:w-[450px] flex-col items-center justify-center overflow-hidden rounded-lg"
+    class="relative flex h-[300px] w-[300px] backdrop-blur-md rounded-full flex-col items-center justify-center overflow-hidden"
   >
     <span
       class="pointer-events-none text-center text-8xl font-semibold leading-none"
@@ -13,7 +13,7 @@
       class="size-[30px] items-center justify-center border-none bg-transparent"
       :duration="20"
       :delay="20"
-      :radius="80"
+      :radius="70"
       :direction="ORBIT_DIRECTION.CounterClockwise"
     >
       <Icon name="logos:vue" size="32" />
@@ -22,7 +22,7 @@
       class="size-[30px] items-center justify-center border-none bg-transparent"
       :duration="20"
       :delay="20"
-      :radius="80"
+      :radius="70"
     >
       <Icon name="logos:pinia" size="32" />
     </Orbit>
@@ -30,7 +30,7 @@
       class="size-[30px] items-center justify-center border-none bg-transparent"
       :duration="20"
       :delay="10"
-      :radius="80"
+      :radius="70"
       path
       :direction="ORBIT_DIRECTION.CounterClockwise"
     >
@@ -39,7 +39,7 @@
     <!-- Outer Circles (reverse) -->
     <Orbit
       class="size-[50px] items-center justify-center border-none bg-transparent"
-      :radius="190"
+      :radius="100"
       :duration="20"
       path
     >
@@ -47,7 +47,7 @@
     </Orbit>
     <Orbit
       class="size-[50px] items-center justify-center border-none bg-transparent"
-      :radius="190"
+      :radius="100"
       :duration="20"
       path
     >
@@ -55,7 +55,7 @@
     </Orbit>
     <Orbit
       class="size-[50px] items-center justify-center border-none bg-transparent"
-      :radius="190"
+      :radius="100"
       :duration="20"
       :direction="ORBIT_DIRECTION.CounterClockwise"
       path
@@ -64,7 +64,7 @@
     </Orbit>
     <Orbit
       class="size-[50px] items-center justify-center border-none bg-transparent"
-      :radius="190"
+      :radius="100"
       :duration="20"
       :delay="200"
       :direction="ORBIT_DIRECTION.CounterClockwise"
@@ -74,7 +74,7 @@
 
     <Orbit
       class="items-center justify-center border-none bg-transparent text-4xl"
-      :radius="140"
+      :radius="130"
       :delay="4"
       path
     >
@@ -82,7 +82,7 @@
     </Orbit>
     <Orbit
       class="items-center justify-center border-none bg-transparent text-4xl"
-      :radius="140"
+      :radius="130"
       :delay="5"
       :direction="ORBIT_DIRECTION.CounterClockwise"
     >
@@ -90,7 +90,7 @@
     </Orbit>
     <Orbit
       class="items-center justify-center border-none bg-transparent text-4xl"
-      :radius="140"
+      :radius="130"
       :delay="5"
       :direction="ORBIT_DIRECTION.CounterClockwise"
     >
