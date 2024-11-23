@@ -4,7 +4,7 @@
       <p
         class="text-neutral text-center text-3xl lg:text-5xl font-tomorrow font-bold"
       >
-        MY WORK
+        EXPERIENCE
       </p>
       <!-- Work Experience -->
       <GlowBorder
@@ -12,7 +12,6 @@
         :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
       >
         <BoxReveal color="#4CC9FE" :duration="0.8">
-          <p class="text-sm text-accent pb-2">Experience</p>
           <ClientOnly>
             <div class="relative flex w-full flex-col overflow-scroll pb-6">
               <AnimatedList class="w-full">

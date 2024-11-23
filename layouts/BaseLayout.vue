@@ -15,4 +15,8 @@
 
 <script lang="ts" setup></script>
 
-<style></style>
+<style>
+::-webkit-scrollbar {
+  display: none;
+}
+</style>

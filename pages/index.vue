@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 h-screen items-start py-20 w-full"
+    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 h-screen xl:h-full items-start py-20 w-full"
   >
     <AboutMe />
     <TechILike />
