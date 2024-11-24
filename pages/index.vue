@@ -18,12 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import { breakpointsTailwind, useBreakpoints } from "@vueuse/core";
-
 definePageMeta({
   layout: "base-layout",
 });
-
-const breakpoints = useBreakpoints(breakpointsTailwind);
-const smallerOrEqualThanXl = breakpoints.smallerOrEqual("xl"); // only smaller than lg
 </script>

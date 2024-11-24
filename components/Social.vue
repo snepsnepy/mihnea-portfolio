@@ -37,10 +37,10 @@
     </GlowBorder>
 
     <div class="flex flex-col items-center w-full">
-      <p class="text-neutral text-center text-md font-sans font-semibold">
+      <p class="text-primary text-center text-sm font-sans font-semibold">
         DEVELOPED BY
       </p>
-      <NuxtImg src="/img/logo.png" />
+      <NuxtImg src="/img/logo.png" class="w-24" />
     </div>
   </div>
 </template>
