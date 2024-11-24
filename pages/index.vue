@@ -11,6 +11,7 @@
       <WorkExp />
       <Social />
     </div>
+
     <WorkExp v-if="smallerOrEqualThanXl" />
     <Social v-if="smallerOrEqualThanXl" />
   </div>

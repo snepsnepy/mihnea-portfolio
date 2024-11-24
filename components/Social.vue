@@ -35,6 +35,13 @@
         </Dock>
       </BoxReveal>
     </GlowBorder>
+
+    <div class="flex flex-col items-center w-full">
+      <p class="text-neutral text-center text-md font-sans font-semibold">
+        DEVELOPED BY
+      </p>
+      <NuxtImg src="/img/logo.png" />
+    </div>
   </div>
 </template>
 
