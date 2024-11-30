@@ -10,10 +10,12 @@
         <div
           v-for="(item, index) in dummyContent"
           :key="`content-${index}`"
-          class="mb-10"
+          class="mb-10 px-4"
         >
-          <LinkPreview :url="item.url">
-            <p class="text-accent text-3xl font-tomorrow font-bold">
+          <LinkPreview :url="item.url" class="w-full">
+            <p
+              class="text-accent text-xl md:text-3xl font-tomorrow font-bold text-center md:text-start"
+            >
               {{ item.title.toUpperCase() }}
             </p>
           </LinkPreview>
@@ -29,7 +31,7 @@
               <p
                 v-for="(paragraph, idx) in item.description"
                 :key="`desc-${idx}`"
-                class="text-neutral text-lg font-tomorrow"
+                class="text-neutral text-md md:text-lg font-tomorrow text-center md:text-start"
               >
                 {{ paragraph }}
               </p>
@@ -49,7 +51,7 @@ const dummyContent = [
     description: [
       "Starting as a personal project, RPL wants to become a programming language that allows the user to write code in the Romanian language in a fun and interactive way.",
     ],
-    badge: "Inspira UI",
+
     image: "/img/rpl.png",
     url: "https://github.com/snepsnepy/romanian-programming-language",
   },
@@ -58,7 +60,7 @@ const dummyContent = [
     description: [
       "'Invata cu Snep' is a dynamic platform and community designed to provide access to mini IT courses and tutorials. Our mission is to make tech education simple, engaging, and accessible for everyone, fostering a supportive space where users can grow their skills and connect with like-minded learners.",
     ],
-    badge: "Vue",
+
     image: "/img/snepteinvata.png",
     url: "https://main--invatacusnep.netlify.app/",
   },
@@ -67,7 +69,7 @@ const dummyContent = [
     description: [
       "'WHO IS SNEP?' is a 2D browser-based game that transforms a traditional portfolio into an engaging experience. Users can explore and interact with various elements, discovering projects and skills in a fun, immersive way.",
     ],
-    badge: "Nuxt",
+
     image: "/img/whoissnep.png",
     url: "https://whoissnep.netlify.app/",
   },
