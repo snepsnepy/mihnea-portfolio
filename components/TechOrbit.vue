@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex h-[300px] w-[300px] backdrop-blur-sm rounded-full flex-col items-center justify-center overflow-hidden"
+    class="relative flex h-[300px] w-[300px] backdrop-blur-md rounded-full flex-col items-center justify-center overflow-hidden"
   >
     <span
       class="pointer-events-none text-center text-8xl font-semibold leading-none"

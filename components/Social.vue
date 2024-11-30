@@ -6,7 +6,7 @@
       SOCIAL
     </p>
     <GlowBorder
-      class="relative flex flex-col w-fit overflow-hidden rounded-2xl items-center border bg-white/5 md:shadow-xl backdrop-blur-sm"
+      class="relative flex flex-col w-fit overflow-hidden rounded-2xl items-center border bg-white/5 md:shadow-xl backdrop-blur-md"
       :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
     >
       <Dock class="m-0 border-none">

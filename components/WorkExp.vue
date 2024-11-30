@@ -8,7 +8,7 @@
       </p>
       <!-- Work Experience -->
       <GlowBorder
-        class="relative flex flex-col overflow-hidden rounded-2xl border w-full bg-white/5 md:shadow-xl backdrop-blur-sm"
+        class="relative flex flex-col overflow-hidden rounded-2xl border w-full bg-white/5 md:shadow-xl backdrop-blur-md"
         :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
       >
         <ClientOnly>

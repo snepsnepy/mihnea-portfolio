@@ -8,7 +8,7 @@
 
     <!-- My Name Is -->
     <GlowBorder
-      class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-sm"
+      class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-md"
       :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
     >
       <p
@@ -24,7 +24,7 @@
 
     <!-- About Me -->
     <GlowBorder
-      class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-sm"
+      class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-md"
       :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
     >
       <div class="flex items-center justify-between">
@@ -47,7 +47,7 @@
 
     <!-- Download Resume -->
     <GlowBorder
-      class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-sm"
+      class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-md"
       :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
     >
       <div class="flex justify-between items-center">

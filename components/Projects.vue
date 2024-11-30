@@ -6,7 +6,7 @@
 
     <GlowBorder
       @click="() => navigateTo('/projects')"
-      class="relative flex flex-col w-full overflow-hidden rounded-2xl border p-0 bg-white/5 md:shadow-xl backdrop-blur-sm hover:cursor-pointer hover:scale-[103%] transition-all duration-200 ease-in-out"
+      class="relative flex flex-col w-full overflow-hidden rounded-2xl border p-0 bg-white/5 md:shadow-xl backdrop-blur-md hover:cursor-pointer hover:scale-[103%] transition-all duration-200 ease-in-out"
       :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
     >
       <SafariMockup
