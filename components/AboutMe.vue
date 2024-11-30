@@ -11,19 +11,15 @@
       class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-sm"
       :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
     >
-      <BoxReveal color="#4CC9FE" :duration="0.8">
-        <p
-          class="text-lg lg:text-2xl lg:leading-[40px] text-white text-left font-tomorrow font-thin"
-        >
-          Im'
-        </p>
-        <h2
-          class="text-3xl lg:text-5xl text-neutral font-semibold font-tomorrow"
-        >
-          Mihnea <br />
-          Savulescu 👋
-        </h2>
-      </BoxReveal>
+      <p
+        class="text-lg lg:text-2xl lg:leading-[40px] text-white text-left font-tomorrow font-thin"
+      >
+        Im'
+      </p>
+      <h2 class="text-3xl lg:text-5xl text-neutral font-semibold font-tomorrow">
+        Mihnea <br />
+        Savulescu 👋
+      </h2>
     </GlowBorder>
 
     <!-- About Me -->
@@ -40,15 +36,13 @@
         />
       </div>
 
-      <BoxReveal color="#4CC9FE" :duration="0.8" class="mt-12">
-        <p class="text-sm lg:text-base text-neutral font-tomorrow">
-          As a Vue.js virtuoso with over <b>5 years</b> of experience, I’m not
-          just building web applications—I’m crafting digital experiences that
-          blend innovation with rock-solid reliability. My journey through the
-          world of frontend technologies has honed my expertise in creating
-          interfaces that are as intuitive as they are powerful.
-        </p>
-      </BoxReveal>
+      <p class="text-sm lg:text-base text-neutral font-tomorrow">
+        As a Vue.js virtuoso with over <b>5 years</b> of experience, I’m not
+        just building web applications—I’m crafting digital experiences that
+        blend innovation with rock-solid reliability. My journey through the
+        world of frontend technologies has honed my expertise in creating
+        interfaces that are as intuitive as they are powerful.
+      </p>
     </GlowBorder>
 
     <!-- Download Resume -->
@@ -56,21 +50,19 @@
       class="relative flex flex-col w-full overflow-hidden rounded-2xl border bg-white/5 md:shadow-xl backdrop-blur-sm"
       :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
     >
-      <BoxReveal color="#4CC9FE" :duration="0.8">
-        <div class="flex justify-between items-center">
-          <p class="text-base lg:text-xl text-neutral font-bold font-tomorrow">
-            MY RESUME
-          </p>
+      <div class="flex justify-between items-center">
+        <p class="text-base lg:text-xl text-neutral font-bold font-tomorrow">
+          MY RESUME
+        </p>
 
-          <a href="/files/cv.pdf" download @click="getCV">
-            <Icon
-              name="line-md:download-loop"
-              size="32"
-              class="text-neutral hover:text-accent hover:cursor-pointer"
-            />
-          </a>
-        </div>
-      </BoxReveal>
+        <a href="/files/cv.pdf" download @click="getCV">
+          <Icon
+            name="line-md:download-loop"
+            size="32"
+            class="text-neutral hover:text-accent hover:cursor-pointer"
+          />
+        </a>
+      </div>
     </GlowBorder>
   </div>
 </template>

@@ -11,24 +11,22 @@
         class="relative flex flex-col overflow-hidden rounded-2xl border w-full bg-white/5 md:shadow-xl backdrop-blur-sm"
         :color="['#8B5DFF', '#8B5DFF', '#4CC9FE']"
       >
-        <BoxReveal color="#4CC9FE" :duration="0.8">
-          <ClientOnly>
-            <div class="relative flex w-full flex-col overflow-scroll pb-6">
-              <AnimatedList class="w-full">
-                <JobCard
-                  v-for="(item, idx) in notifications"
-                  :key="idx"
-                  :name="item.name"
-                  :description="item.description"
-                  :icon="item.icon"
-                  :color="item.color"
-                  :time="item.time"
-                  class="dark"
-                />
-              </AnimatedList>
-            </div>
-          </ClientOnly>
-        </BoxReveal>
+        <ClientOnly>
+          <div class="relative flex w-full flex-col overflow-scroll pb-6">
+            <AnimatedList class="w-full">
+              <JobCard
+                v-for="(item, idx) in notifications"
+                :key="idx"
+                :name="item.name"
+                :description="item.description"
+                :icon="item.icon"
+                :color="item.color"
+                :time="item.time"
+                class="dark"
+              />
+            </AnimatedList>
+          </div>
+        </ClientOnly>
       </GlowBorder>
     </div>
   </div>
