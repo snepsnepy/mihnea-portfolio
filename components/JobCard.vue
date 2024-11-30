@@ -2,9 +2,9 @@
   <div
     :class="
       cn(
-        'relative  min-h-fit cursor-pointer overflow-hidden rounded-2xl p-4',
+        'relative  min-h-fit cursor-pointer overflow-hidden rounded-2xl p-4 ',
         // animation styles
-        'transition-all duration-200 ease-in-out hover:scale-[103%]',
+        'transition-all duration-200 ease-in-out hover:scale-[103%] ',
         // light styles
         'bg-neutral/20 [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]',
         // dark styles
@@ -14,14 +14,14 @@
   >
     <div class="flex flex-row items-center gap-3">
       <div
-        class="flex size-8 sm:size-12 items-center justify-center rounded-2xl"
+        class="flex size-8 sm:size-10 items-center justify-center !rounded-2xl"
         :style="`background-color: ${color}`"
       >
         <NuxtImg
           :src="icon"
-          class="w-5 h-5 md:w-10 md:h-10"
-          width="40"
-          height="40"
+          class="w-5 h-5 md:w-8 md:h-8"
+          width="30"
+          height="30"
         />
       </div>
       <div class="flex flex-col overflow-hidden">
