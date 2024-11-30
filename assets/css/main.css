@@ -1,1 +1,5 @@
 @import "~/assets/fonts/fonts.css";
+
+html {
+  @apply bg-black;
+}
